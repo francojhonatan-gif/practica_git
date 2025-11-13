@@ -4,5 +4,7 @@ def triangulo(base, altura):
 def cuadrado(lado):
     return lado * lado
 
-
+def circulo(radio):
+    pi = 3.1416
+    return pi * radio **2
     

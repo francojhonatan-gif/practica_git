@@ -1,13 +1,15 @@
 from funciones import suma
 from calculos import triangulo
 from calculos import cuadrado
+from calculos import circulo
 
 while True :
     print("Menu")
     print("1.suma")
     print("2.area de triangulo")
     print("3.area de cuadrado")
-    print("4.salir")
+    print("4.area del circulo")
+    print("5.salir")
 
     opcion = input("Eliga una opcion : ")
 
@@ -29,8 +31,8 @@ while True :
         print("el area del cuadrado es :", resultado2)
 
     elif opcion == "4" :
-        print("saliedno del programa:")
-        break
-
+       radio = float(input("Ingrese el radio: "))
+       resultado3 = circulo(radio)
+       print("El área del círculo es:", resultado3)
 
 
