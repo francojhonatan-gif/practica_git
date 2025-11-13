@@ -3,8 +3,10 @@ from calculos import triangulo
 from calculos import cuadrado
 from calculos import circulo
 
+print(13,11,2025)
+
 while True :
-    print("Menu")
+    print("Menu ")
     print("1.suma")
     print("2.area de triangulo")
     print("3.area de cuadrado")
@@ -34,5 +36,6 @@ while True :
        radio = float(input("Ingrese el radio: "))
        resultado3 = circulo(radio)
        print("El área del círculo es:", resultado3)
+
 
 
